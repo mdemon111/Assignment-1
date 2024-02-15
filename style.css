@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 h2 h3 h4 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.banner {
+  background-image: url(photo/Banner\ Image.png);
+  width: 90%;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  background-color: #07020b;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+.text-container h4 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.text-container h2 {
+  font-size: 72px;
+  padding: 0px 300px 0px 300px;
+}
+
+/* categories-section */
+.categories-section {
+  width: 90%;
+  padding: 75px;
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.categories-section h2 {
+  font-size: 88px;
+}
+.categories-section p {
+  margin-top: 18px;
+  font-size: 24px;
+  color: #f00;
+}
+.categories-section h4 {
+  margin-top: 18px;
+  font-size: 48px;
+}
+.categories-section img {
+  margin-top: 30px;
+  width: 700px;
+  height: 500px;
+}
+
+/* midnight-section */
+.midnight-section {
+  background-image: url(photo/Vectorrr.png);
+  width: 90%;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  background-color: #07020b;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.midnight-section img {
+  width: 300px;
+}
+.text-section {
+  font-size: 54px;
+  display: flex;
+}
+.text-section p {
+  font-size: 18px;
+}
