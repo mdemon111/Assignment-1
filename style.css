@@ -7,7 +7,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-h1 h2 h3 h4 {
+h1 h2 h3 h4 p {
   font-family: "Merriweather Sans", sans-serif;
 }
 
@@ -72,25 +72,210 @@ h1 h2 h3 h4 {
   background-image: url(photo/Vectorrr.png);
   width: 90%;
   height: 600px;
-  text-align: center;
   margin: auto;
   background-position: center;
   background-size: cover;
   margin-top: 20px;
   background-color: #07020b;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
   align-items: center;
   color: white;
+  display: flex;
+
 }
 .midnight-section img {
   width: 300px;
+  padding: 100px;
+  padding-left: 280px;
 }
 .text-section {
   font-size: 54px;
-  display: flex;
+  margin: 40px;
 }
 .text-section p {
   font-size: 18px;
 }
+.bth{
+ font-size: 20px;
+ font-weight: 700;
+ background: none;
+ border: none;
+ color: white;
+ padding-right: 400px;
+}
+
+
+
+.datetime-container{
+  width: 90%;
+  height: 480px;
+  margin: 70px;
+  background-color: rgb(244, 224, 224);
+}
+.date-time{
+  padding: 74px;
+  text-align: center;
+}
+
+
+.holiday-containe{
+  text-align: center;
+}
+.holiday-text h4{
+  font-size: 20px;
+  color: #070211;
+}
+.holiday-text h2{
+  font-size: 70px;
+}
+.holiday-text p{
+  font-size: 16px;
+}
+.holiday{
+  color: #F00;
+}
+.img-container{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  margin-top: 90px;
+  position: absolute;
+
+}
+
+.img-1{
+  margin-top: 90px;
+  width: 630px;
+  height: 700px;
+  
+  position: relative;
+  
+}
+.group-photo{
+  padding-left: 180px;
+}
+.img-2{
+  position: absolute;
+  margin-top: 220px;
+}
+.img-3{
+  padding: 150px;
+  margin-right: -90px;
+}
+.img-4{
+  padding: 70px;
+  margin-top: 603px;
+  
+}
+
+
+/* portfolio-section */
+.portfolio-section{
+  padding: 74px;
+  align-items: center;
+}
+.portfolio-section h4{
+  font-size: 24px;
+  color: #F00;
+}
+.portfolio-section h2{
+  font-size: 40px;
+}
+.portfolio-container{
+  padding: 74px;
+}
+.portfolio-img{
+  width: 1300px;
+  height: 500px;
+  gap: 90px;
+}
+
+/* subscribe-section */
+.subscribe-container{
+  margin: 60px;
+  margin-right: 60px;
+  align-items: center;
+  width: 1300px;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+
+#gmail{
+  border: none;
+  width: 400px;
+  height: 44px;
+  position: relative;
+  background: white;
+  border-radius: 50px;
+  margin-top: 50px;
+
+}
+.btnn{
+  border-radius: 0px 50px 50px 0px;
+  background-color: #F00;
+  border: none;
+  width: 170px;
+  height: 44px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+.subscribi-text{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.subscribi-img{
+  margin-top: 80px;
+}
+
+
+/* footer-section */
+.footer-container{
+  background: #000;
+  width: 1600px;
+  height: 600px;
+}
+
+
+/* footer section */
+.footer-text1{
+  color: white;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.footer-text2{
+  color: white;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.footer-secetion{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.app-section{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-text3{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.hr{
+  font-size: 1px;
+  margin-top: 90px;
+}
+
