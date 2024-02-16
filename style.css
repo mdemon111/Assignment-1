@@ -115,6 +115,23 @@ h1 h2 h3 h4 p {
   padding: 74px;
   text-align: center;
 }
+.date-time h2{
+  font-size: 30px;
+}
+.join-btn{
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #F00;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.color{
+  color: #F00;
+}
 
 
 .holiday-containe{
@@ -277,5 +294,83 @@ h1 h2 h3 h4 p {
 .hr{
   font-size: 1px;
   margin-top: 90px;
+}
+
+.best-offer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px ;
+  overflow: hidden;
+
+}
+
+.best-offer-content .com-text {
+  padding: 74px;
+}
+
+
+.best-offer-content .com-text h3 {
+  color: #F00;
+
+
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.best-offer-content .com-text h1 {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.best-offer-content .com-text p {
+  color: rgba(7, 2, 17, 0.60);
+
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.new-img {
+  margin-top: 70px;
+}
+
+.new-img .inner {
+  border: 10px solid red;
+  border-radius: 50%;
+
+}
+
+.best-offer-content .new-img {
+  padding: 0 70px;
+}
+
+.new-img img {
+  border: 30px solid white;
+  border-radius: 50%;
+}
+
+
+.new-text h1 {
+  color: #F00;
+
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.best-offer-content .new-text {
+  padding: 0 70px;
 }
 
